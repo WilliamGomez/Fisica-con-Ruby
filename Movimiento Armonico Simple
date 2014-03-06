@@ -1,0 +1,43 @@
+//Programa en Ruby para Movimiento Armonico Simple
+
+//Definimos Variables
+
+nombre= gets
+omega = gets
+tiempo= gets
+velocidad=gets
+distancia=gets
+aceleracion=gets
+radio=gets
+angulo=0
+
+class Principales Formulas
+
+	def angulo
+		angulo= omega*tiempo
+		puts angulo
+	end
+
+	def omega
+		omega=angulo/tiempo
+		puts omega
+
+	def velocidad
+		velocidad= distancia/tiempo
+		puts velocidad
+	end
+
+	def velocidad2
+		velocidad=omega*radio
+		puts velocidad
+	end
+
+	def aceleracion
+		aceleracion=omega*velocidad
+		puts aceleracion
+	end
+
+	def aceleracion2
+		aceleracion=(velocidad**2)/radio
+		puts aceleracion2
+	end
